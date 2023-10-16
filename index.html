@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/84fb56c54e.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <nav>
+                <ul class="menu">
+                    <li><a class="navegacion" href="#">Home</a></li>
+                    <li><a class="navegacion" href="proyectos.html">Proyectos</a></li>
+                    <li><a class="navegacion" href="skills.html">Skills</a></li>
+                    <li><a class="navegacion" href="user.html">Usuario</a></li>
+                    <li><a class="navegacion" href="contact.html">Contact</a></li>
+                    <li><button class ="lupa" type="submit"><i class="fa-solid fa-magnifying-glass"></i></i</button></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+
+    <aside>
+        <p class="textuno">
+            <b>Hello,</b> welcome <b>to the official</b>
+        </p>
+
+        <p class="textdos">
+            Roberto's <b>Developer</b> Website
+        </p>
+    </aside>
+
+    <section>
+        
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/html.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Proyectos</h5>
+            <p class="card-text">Acá se puede accesar a todos mis proyectos</p>
+            <a href="proyectos.html" class="btn btn-primary">Check it out</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/skills.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Skills</h5>
+            <p class="card-text">Un poco sobre mi</p>
+            <a href="skills.html" class="btn btn-primary">Check it out</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/contact.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Contacto</h5>
+            <p class="card-text">Contact me!</p>
+            <a href="contact.html" class="btn btn-primary">Check it out</a>
+            </div>
+        </div>
+
+    </section>
+
+    <aside>
+        <h1>Add user</h1>
+        <form action="/add" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required> <br> <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required> <br> <br>
+            <button type="submit">Add User</button>
+        </form>
+    </aside>
+    
+</body>
+</html>
