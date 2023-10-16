@@ -147,6 +147,16 @@ app.listen(port,()=>{
 });
 
 
+// Servir archivos estáticos desde la carpeta 'public'
+app.use(express.static(__dirname));
+
+// Ruta principal
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/index.html');
+});
+
+
+
 
 
 
