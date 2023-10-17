@@ -31,12 +31,12 @@ Iniciar el servidor:
 
 Iniciar el servidor local ejecutando:
 
-npm start
+node API2.js
 
 Abrir el sitio web:
 
 Abrir navegador web e ir a la siguiente dirección:
 
-http://localhost:3000
+http://localhost:5555
 
 ¡Listo! 
